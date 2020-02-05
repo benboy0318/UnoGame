@@ -1,0 +1,121 @@
+
+import java.util.ArrayList;
+
+public class Deck
+	{
+		static ArrayList<Cards> deck = new ArrayList<Cards>();
+
+		public static void fillDeck()
+			{
+				deck.add(new Cards("Yellow", "0"));
+				deck.add(new Cards("Yellow", "1"));
+				deck.add(new Cards("Yellow", "2"));
+				deck.add(new Cards("Yellow", "3"));
+				deck.add(new Cards("Yellow", "4"));
+				deck.add(new Cards("Yellow", "5"));
+				deck.add(new Cards("Yellow", "6"));
+				deck.add(new Cards("Yellow", "7"));
+				deck.add(new Cards("Yellow", "8"));
+				deck.add(new Cards("Yellow", "9"));
+				deck.add(new Cards("Yellow", "Draw 2"));
+				deck.add(new Cards("Yellow", "Skip"));
+				deck.add(new Cards("Yellow", "Reverse"));
+				deck.add(new Cards("Yellow", "1"));
+				deck.add(new Cards("Yellow", "2"));
+				deck.add(new Cards("Yellow", "3"));
+				deck.add(new Cards("Yellow", "4"));
+				deck.add(new Cards("Yellow", "5"));
+				deck.add(new Cards("Yellow", "6"));
+				deck.add(new Cards("Yellow", "7"));
+				deck.add(new Cards("Yellow", "8"));
+				deck.add(new Cards("Yellow", "9"));
+				deck.add(new Cards("Yellow", "Draw 2"));
+				deck.add(new Cards("Yellow", "Skip"));
+				deck.add(new Cards("Yellow", "Reverse"));
+				deck.add(new Cards("Red", "0"));
+				deck.add(new Cards("Red", "1"));
+				deck.add(new Cards("Red", "2"));
+				deck.add(new Cards("Red", "3"));
+				deck.add(new Cards("Red", "4"));
+				deck.add(new Cards("Red", "5"));
+				deck.add(new Cards("Red", "6"));
+				deck.add(new Cards("Red", "7"));
+				deck.add(new Cards("Red", "8"));
+				deck.add(new Cards("Red", "9"));
+				deck.add(new Cards("Red", "Draw 2"));
+				deck.add(new Cards("Red", "Skip"));
+				deck.add(new Cards("Red", "Reverse"));
+				deck.add(new Cards("Red", "1"));
+				deck.add(new Cards("Red", "2"));
+				deck.add(new Cards("Red", "3"));
+				deck.add(new Cards("Red", "4"));
+				deck.add(new Cards("Red", "5"));
+				deck.add(new Cards("Red", "6"));
+				deck.add(new Cards("Red", "7"));
+				deck.add(new Cards("Red", "8"));
+				deck.add(new Cards("Red", "9"));
+				deck.add(new Cards("Red", "Draw 2"));
+				deck.add(new Cards("Red", "Skip"));
+				deck.add(new Cards("Red", "Reverse"));
+				deck.add(new Cards("Green", "0"));
+				deck.add(new Cards("Green", "1"));
+				deck.add(new Cards("Green", "2"));
+				deck.add(new Cards("Green", "3"));
+				deck.add(new Cards("Green", "4"));
+				deck.add(new Cards("Green", "5"));
+				deck.add(new Cards("Green", "6"));
+				deck.add(new Cards("Green", "7"));
+				deck.add(new Cards("Green", "8"));
+				deck.add(new Cards("Green", "9"));
+				deck.add(new Cards("Green", "Draw 2"));
+				deck.add(new Cards("Green", "Skip"));
+				deck.add(new Cards("Green", "Reverse"));
+				deck.add(new Cards("Green", "1"));
+				deck.add(new Cards("Green", "2"));
+				deck.add(new Cards("Green", "3"));
+				deck.add(new Cards("Green", "4"));
+				deck.add(new Cards("Green", "5"));
+				deck.add(new Cards("Green", "6"));
+				deck.add(new Cards("Green", "7"));
+				deck.add(new Cards("Green", "8"));
+				deck.add(new Cards("Green", "9"));
+				deck.add(new Cards("Green", "Draw 2"));
+				deck.add(new Cards("Green", "Skip"));
+				deck.add(new Cards("Green", "Reverse"));
+				deck.add(new Cards("Blue", "0"));
+				deck.add(new Cards("Blue", "1"));
+				deck.add(new Cards("Blue", "2"));
+				deck.add(new Cards("Blue", "3"));
+				deck.add(new Cards("Blue", "4"));
+				deck.add(new Cards("Blue", "5"));
+				deck.add(new Cards("Blue", "6"));
+				deck.add(new Cards("Blue", "7"));
+				deck.add(new Cards("Blue", "8"));
+				deck.add(new Cards("Blue", "9"));
+				deck.add(new Cards("Blue", "Draw 2"));
+				deck.add(new Cards("Blue", "Skip"));
+				deck.add(new Cards("Blue", "Reverse"));
+				deck.add(new Cards("Blue", "1"));
+				deck.add(new Cards("Blue", "2"));
+				deck.add(new Cards("Blue", "3"));
+				deck.add(new Cards("Blue", "4"));
+				deck.add(new Cards("Blue", "5"));
+				deck.add(new Cards("Blue", "6"));
+				deck.add(new Cards("Blue", "7"));
+				deck.add(new Cards("Blue", "8"));
+				deck.add(new Cards("Blue", "9"));
+				deck.add(new Cards("Blue", "Draw 2"));
+				deck.add(new Cards("Blue", "Skip"));
+				deck.add(new Cards("Wild", "Color Change"));
+				deck.add(new Cards("Wild", "Color Change"));
+				deck.add(new Cards("Wild", "Color Change"));
+				deck.add(new Cards("Wild", "Color Change"));
+				deck.add(new Cards("Wild", "Color Change"));
+				deck.add(new Cards("Wild", "Draw 4"));
+				deck.add(new Cards("Wild", "Draw 4"));
+				deck.add(new Cards("Wild", "Draw 4"));
+				deck.add(new Cards("Wild", "Draw 4"));
+
+			}
+
+	}
